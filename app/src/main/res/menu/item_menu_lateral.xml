@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/nav_contact"
+        android:icon="@drawable/contact_icon"
+        android:title="@string/contact"/>
+
+    <!--
+    <item android:id="@+id/nav_boookings"
+        android:icon="@mipmap/booking_icon_foreground"
+        android:title="@string/bookings"/>
+     -->
+
+</menu>

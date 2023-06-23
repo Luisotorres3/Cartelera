@@ -1,0 +1,72 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Cartelera" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.Cartelera" parent="Base.Theme.Cartelera" />
+
+    <!-- Change primary color style -->
+    <style name="CambiarColorPrimario" parent="Theme.Cartelera">
+        <item name="colorOnPrimary">@color/black</item>
+    </style>
+    <!-- End SplashTheme style -->
+
+    <!-- Define a global style for AboutPage in your 'styles.xml' -->
+    <style name="AboutPage" parent="about_About">
+        <item name="aboutBackground">@color/backgroundTint</item>
+        <item name="aboutElementIconTint">@color/black</item>
+        <item name="aboutSeparatorColor">@color/black</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="TextAppearance.App.AboutPage.Description" parent="about_descriptionTextAppearance">
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textColorPrimary">@color/black</item>
+    </style>
+    <!-- End AboutPage style -->
+
+    <!-- Fragment style -->
+    <style name="Fragment" parent="Theme.Cartelera">
+        <item name="android:backgroundTint">@color/backgroundTint</item>
+        <item name="android:background">@color/background</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <!-- End Fragment style -->
+
+
+    <!-- SplashScreen API style -->
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/purple</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/logo_user</item>
+        <item name="windowSplashScreenAnimationDuration">300</item>
+        <item name="postSplashScreenTheme">@style/Theme.Cartelera</item>
+    </style>
+    <!-- End SplashSCreen API style -->
+
+    <!-- Fragment style -->
+    <style name="Spinner" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">@color/black</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <!-- End Fragment style -->
+
+    <!-- Dialog style -->
+    <style name="AlertDialogCustom" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="android:textColorSecondary">@color/black</item>
+    </style>
+    <!-- End Dialog style -->
+
+    <!-- Dialog style -->
+    <style name="Image" parent="Theme.Cartelera">
+        <item name="colorPrimaryVariant">@color/black</item>
+        <item name="backgroundTint">@color/white</item>
+    </style>
+    <!-- End Dialog style -->
+
+
+
+</resources>
